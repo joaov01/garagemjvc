@@ -74,7 +74,7 @@ function initServicesCatalog() {
             </div>
             <p class="service-item-desc">${item.description}</p>
             <div class="service-item-footer">
-              <a href="${waUrl}" target="_blank" class="btn btn-whatsapp" style="width: 100%; justify-content: center;">
+              <a href="${waUrl}" target="_blank" onclick="return gtag_report_conversion(this.href);" class="btn btn-whatsapp" style="width: 100%; justify-content: center;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                   <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.949h.004c4.368 0 7.926-3.558 7.93-7.93a7.896 7.896 0 0 0-2.333-5.593l.002-.008zm-5.606 11.96c-1.193 0-2.366-.32-3.386-.925l-.24-.143-2.516.66.671-2.456-.157-.25a6.588 6.588 0 0 1-1.007-3.483C.07 4.195 3.633.631 8.001.631a6.536 6.536 0 0 1 4.628 1.916 6.567 6.567 0 0 1 1.9 4.62c-.004 4.363-3.567 7.926-7.96 7.926z"/>
                 </svg>
