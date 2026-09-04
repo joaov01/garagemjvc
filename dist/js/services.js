@@ -1,3 +1,15 @@
+import espaco1 from '../assets/espaco_1.jpg';
+import espaco2 from '../assets/espaco_2.jpg';
+import espaco3 from '../assets/espaco_3.jpg';
+import espaco4 from '../assets/espaco_4.jpg';
+import espaco5 from '../assets/espaco_5.jpg';
+import espaco6 from '../assets/espaco_6.jpg';
+import espaco7 from '../assets/espaco_7.jpg';
+import espaco8 from '../assets/espaco_8.jpg';
+import espaco9 from '../assets/espaco_9.jpg';
+import espaco10 from '../assets/espaco_10.jpg';
+import espaco11 from '../assets/espaco_11.jpg';
+
 export const servicesData = [
   {
     id: "peliculas-automotivas",
@@ -162,17 +174,17 @@ export const servicesData = [
 ];
 
 export const showcasePhotos = [
-  "assets/espaco_1.jpg",
-  "assets/espaco_2.jpg",
-  "assets/espaco_3.jpg",
-  "assets/espaco_4.jpg",
-  "assets/espaco_5.jpg",
-  "assets/espaco_6.jpg",
-  "assets/espaco_7.jpg",
-  "assets/espaco_8.jpg",
-  "assets/espaco_9.jpg",
-  "assets/espaco_10.jpg",
-  "assets/espaco_11.jpg"
+  espaco1,
+  espaco2,
+  espaco3,
+  espaco4,
+  espaco5,
+  espaco6,
+  espaco7,
+  espaco8,
+  espaco9,
+  espaco10,
+  espaco11
 ];
 
 export const companyData = {
