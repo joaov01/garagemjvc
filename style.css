@@ -49,6 +49,11 @@
   outline: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: var(--font-sans);
@@ -251,12 +256,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.03em;
 }
 
-.nav-logo-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1.5px solid var(--accent);
-  object-fit: cover;
+.nav-logo-icon, .logo img {
+  width: 40px !important;
+  height: 40px !important;
+  max-width: 40px !important;
+  max-height: 40px !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+  border-radius: 50% !important;
+  border: 1.5px solid var(--accent) !important;
+  object-fit: cover !important;
+  flex-shrink: 0 !important;
+  display: inline-block !important;
 }
 
 .logo span {
@@ -302,13 +313,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-brand-logo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 2px solid var(--accent);
-  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
-  object-fit: cover;
-  display: block;
+  width: 110px !important;
+  height: 110px !important;
+  max-width: 110px !important;
+  max-height: 110px !important;
+  min-width: 110px !important;
+  min-height: 110px !important;
+  border-radius: 50% !important;
+  border: 2px solid var(--accent) !important;
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3) !important;
+  object-fit: cover !important;
+  display: block !important;
+  flex-shrink: 0 !important;
 }
 
 .hero-subtitle {
