@@ -162,18 +162,17 @@ export const servicesData = [
 ];
 
 export const showcasePhotos = [
-  "assets/bmw_frente-esq.png",
-  "assets/tiggo5.png",
-  "assets/detailand1.png",
-  "assets/detailand2.png",
-  "assets/detailland.png",
-  "assets/20260226_182154.jpg",
-  "assets/20260223_190043.jpg",
-  "assets/20260213_173949.jpg",
-  "assets/20260213_172401.jpg",
-  "assets/20260210_184946.jpg",
-  "assets/20260204_194604.jpg",
-  "assets/20251028_150455.jpg"
+  "assets/espaco_1.jpg",
+  "assets/espaco_2.jpg",
+  "assets/espaco_3.jpg",
+  "assets/espaco_4.jpg",
+  "assets/espaco_5.jpg",
+  "assets/espaco_6.jpg",
+  "assets/espaco_7.jpg",
+  "assets/espaco_8.jpg",
+  "assets/espaco_9.jpg",
+  "assets/espaco_10.jpg",
+  "assets/espaco_11.jpg"
 ];
 
 export const companyData = {
