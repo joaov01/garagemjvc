@@ -60,7 +60,7 @@ function initServicesCatalog() {
     const whatsappPhone = "5511912722686";
 
     gridContainer.innerHTML = `
-      <div class="service-category-header text-center" style="grid-column: 1 / -1; margin-bottom: 24px;">
+      <div class="service-category-header text-center" style="grid-column: 1 / -1; margin-top: 24px; margin-bottom: 32px;">
         <h3 style="font-size: 1.6rem; margin-bottom: 8px; color: var(--text-primary);">${category.title}</h3>
         <p style="color: var(--text-secondary); max-width: 680px; margin: 0 auto; font-size: 0.98rem;">${category.description}</p>
       </div>

@@ -1089,9 +1089,15 @@ h1, h2, h3, h4, h5, h6 {
 .services-tabs-nav {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
+}
+
+.service-category-header {
+  grid-column: 1 / -1;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
 .tab-btn {
