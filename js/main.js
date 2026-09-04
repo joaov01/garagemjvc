@@ -1,8 +1,8 @@
 import { servicesData as defaultServicesData, showcasePhotos as defaultShowcasePhotos } from './services.js';
 
 // Read from module import or global window scope
-const getShowcasePhotos = () => (typeof window !== 'undefined' && window.showcasePhotos) || defaultShowcasePhotos || [];
-const getServicesData = () => (typeof window !== 'undefined' && window.servicesData) || defaultServicesData || [];
+const getShowcasePhotos = () => (Array.isArray(defaultShowcasePhotos) && defaultShowcasePhotos.length > 0) ? defaultShowcasePhotos : ((typeof window !== 'undefined' && window.showcasePhotos) || []);
+const getServicesData = () => (Array.isArray(defaultServicesData) && defaultServicesData.length > 0) ? defaultServicesData : ((typeof window !== 'undefined' && window.servicesData) || []);
 
 function init() {
   initServicesCatalog();
