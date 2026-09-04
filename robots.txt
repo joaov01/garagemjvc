@@ -1,0 +1,24 @@
+# robots.txt para Garagem JVC
+User-agent: *
+Allow: /
+
+# Permitir crawlers de IA explicitamente (GEO / Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://garagemjvc.com.br/sitemap.xml

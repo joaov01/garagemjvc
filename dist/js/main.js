@@ -1,6 +1,8 @@
-// Read from global window scope (resolves CORS issues over file:/// protocol)
-const getShowcasePhotos = () => window.showcasePhotos || [];
-const getServicesData = () => window.servicesData || [];
+import { servicesData as defaultServicesData, showcasePhotos as defaultShowcasePhotos } from './services.js';
+
+// Read from module import or global window scope
+const getShowcasePhotos = () => (typeof window !== 'undefined' && window.showcasePhotos) || defaultShowcasePhotos || [];
+const getServicesData = () => (typeof window !== 'undefined' && window.servicesData) || defaultServicesData || [];
 
 function init() {
   initServicesCatalog();

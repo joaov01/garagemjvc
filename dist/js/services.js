@@ -1,4 +1,4 @@
-window.servicesData = [
+export const servicesData = [
   {
     id: "peliculas-automotivas",
     title: "Películas Automotivas Solares",
@@ -9,13 +9,13 @@ window.servicesData = [
         name: "ACROSS ultravion hd — Nano Cerâmica Premium",
         badge: "Mais Vendida",
         price: null,
-        description: "Tecnologia de ponta infundida com nanopartículas de cerâmica. Altíssima visibilidade óptica (claro por dentro, escuro por fora), livre de haze e sem interferência em sinais de GPS/Tag. Rejeição de calor infravermelho de até 96% e 99% de bloqueio UV. Acompanha 7 anos de garantia certificada."
+        description: "Tecnologia de ponta infundida com nanopartículas de cerâmica. Altíssima visibilidade óptica (claro por dentro, escuro por fora), livre de haze e sem interferência em sinais de GPS/Tag. Rejeição de calor infravermelho de até 96% e 99% de bloqueio UV. Acompanha 10 anos de garantia certificada."
       },
       {
         name: "ACROSS FUSION — Nano Carbono",
         badge: "Alta Performance",
         price: null,
-        description: "Com nanopartículas de carbono que não desbotam com o tempo. Oferece visibilidade interna impecável com veículo protegido e escuro por fora. Rejeição de calor de até 72%, 99% de bloqueio UV e 83% de raios IR. Acompanha 7 anos de garantia."
+        description: "Com nanopartículas de carbono que não desbotam com o tempo. Oferece visibilidade interna impecável com veículo protegido e escuro por fora. Rejeição de calor de até 72%, 99% de bloqueio UV e 83% de raios IR. Acompanha 10 anos de garantia."
       },
       {
         name: "ACROSS dyed black — Profissional Americana",
@@ -161,7 +161,7 @@ window.servicesData = [
   }
 ];
 
-window.showcasePhotos = [
+export const showcasePhotos = [
   "assets/bmw_frente-esq.png",
   "assets/tiggo5.png",
   "assets/detailand1.png",
@@ -176,10 +176,10 @@ window.showcasePhotos = [
   "assets/20251028_150455.jpg"
 ];
 
-window.companyData = {
+export const companyData = {
   name: "Garagem JVC Películas & Acessórios Automotivos",
   slogan: "Proteção solar, segurança e tecnologia para o seu veículo.",
-  description: "Somos uma empresa especializada em instalação profissional de Películas Automotivas Solares (Nano Cerâmica e Carbono com Corte Computadorizado), Películas Antivandalismo de Alta Resistência (PS4, PS8, PS12, PS16), PPF (Proteção de Pintura) e Acessórios Automotivos (Centrais Multimídia CarPlay/Android Auto, Lâmpadas LED, Câmeras de Ré e Engates Certificados). Garantia de até 7 anos e atendimento personalizado em São Paulo.",
+  description: "Somos uma empresa especializada em instalação profissional de Películas Automotivas Solares (Nano Cerâmica e Carbono com Corte Computadorizado), Películas Antivandalismo de Alta Resistência (PS4, PS8, PS12, PS16), PPF (Proteção de Pintura) e Acessórios Automotivos (Centrais Multimídia CarPlay/Android Auto, Lâmpadas LED, Câmeras de Ré e Engates Certificados). Garantia de até 10 anos e atendimento personalizado em São Paulo.",
   whatsapp: "11912722686",
   address: {
     line1: "Av. Nossa Senhora Do Sabará, 2863",
@@ -189,4 +189,11 @@ window.companyData = {
     postalCode: "04686-002"
   }
 };
+
+if (typeof window !== 'undefined') {
+  window.servicesData = servicesData;
+  window.showcasePhotos = showcasePhotos;
+  window.companyData = companyData;
+}
+
 
