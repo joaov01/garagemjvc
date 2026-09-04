@@ -6,6 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        artigosHub: resolve(__dirname, 'artigos/index.html'),
         artigo1: resolve(__dirname, 'artigos/peliculas-nano-ceramica-carbono-profissional.html'),
         artigo2: resolve(__dirname, 'artigos/pelicula-antivandalismo-ps4-ps8-ps12-ps16.html'),
         artigo3: resolve(__dirname, 'artigos/melhor-loja-insulfilm-acessorios-zona-sul-sp.html'),
