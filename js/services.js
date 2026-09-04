@@ -1,197 +1,161 @@
 window.servicesData = [
   {
     id: "peliculas-automotivas",
-    title: "Películas Automotivas",
-    subtitle: "Corte Computadorizado",
-    description: "Películas de alta performance para proteção solar, privacidade e conforto térmico. O corte computadorizado garante o encaixe perfeito sem riscos aos vidros do seu veículo.",
+    title: "Películas Automotivas Solares",
+    subtitle: "Corte Computadorizado & Proteção Térmica",
+    description: "Películas de alta performance para proteção solar, privacidade e conforto térmico extremo. Nosso corte 100% computadorizado garante encaixe sob medida sem lâminas ou riscos nos vidros e guarnições do seu carro.",
     items: [
       {
-        name: "ACROSS STANDARD - Profissional",
+        name: "ACROSS ultravion hd — Nano Cerâmica Premium",
+        badge: "Mais Vendida",
         price: null,
-        description: "Película padrão profissional. Oferece boa visibilidade, privacidade (veículo escuro por fora), não afeta sinal do GPS, livre de haze. Conta com 3 anos de garantia."
+        description: "Tecnologia de ponta infundida com nanopartículas de cerâmica. Altíssima visibilidade óptica (claro por dentro, escuro por fora), livre de haze e sem interferência em sinais de GPS/Tag. Rejeição de calor infravermelho de até 96% e 99% de bloqueio UV. Acompanha 7 anos de garantia certificada."
       },
       {
-        name: "ACROSS dyed black - Profissional Americana",
+        name: "ACROSS FUSION — Nano Carbono",
+        badge: "Alta Performance",
         price: null,
-        description: "Película de alta visibilidade óptica. Garante privacidade (veículo escuro por fora), não afeta sinal do GPS e livre de haze. Rejeição de calor de 10% e 99% de rejeição de raios UV. Acompanha 5 anos de garantia."
+        description: "Com nanopartículas de carbono que não desbotam com o tempo. Oferece visibilidade interna impecável com veículo protegido e escuro por fora. Rejeição de calor de até 72%, 99% de bloqueio UV e 83% de raios IR. Acompanha 7 anos de garantia."
       },
       {
-        name: "ACROSS FUSION - Nano Carbono",
+        name: "ACROSS dyed black — Profissional Americana",
+        badge: "Profissional",
         price: null,
-        description: "Infundida com nanopartículas de carbono. Oferece altíssima visibilidade óptica (veículo claro por dentro, escuro por fora), não afeta sinal do GPS e livre de haze. Rejeição de calor de até 72%, 99% de rejeição de raios UV e 83% de rejeição de raios IR. Acompanha 7 anos de garantia."
+        description: "Película padrão americano de alta visibilidade óptica. Garante privacidade, estética elegante e proteção contra raios UV (99%) com excelente custo-benefício. Acompanha 5 anos de garantia."
       },
       {
-        name: "ACROSS ultravion hd - Nano Cerâmica",
+        name: "ACROSS STANDARD — Linha Comercial",
+        badge: "Econômico",
         price: null,
-        description: "Infundida com nanopartículas de cerâmica. Altíssima visibilidade óptica (veículo claro por dentro, escuro por fora), não afeta sinal do GPS e livre de haze. Rejeição de calor de até 96%, 99% de rejeição de raios UV e 83% de rejeição de raios IR. Acompanha 7 anos de garantia."
+        description: "Película de entrada profissional para quem busca privacidade imediata e proteção contra o sol. Não afeta sinal de celulares ou GPS. Acompanha 3 anos de garantia."
       },
       {
-        name: "Películas Parabrisa",
+        name: "Película de Alta Performance para Para-brisa",
+        badge: "Conforto Térmico",
         price: null,
-        description: "Instalação de películas de alta performance específicas para o para-brisa, garantindo redução de calor e proteção UV sem comprometer a visibilidade noturna."
+        description: "Aplicação de película transparente de alta tecnologia em nano cerâmica desenvolvida especificamente para o para-brisa. Bloqueia o calor do sol no painel e nos ocupantes sem alterar a visibilidade noturna."
       }
     ]
   },
   {
     id: "antivandalismo",
-    title: "Películas Antivandalismo",
-    subtitle: "Segurança e Proteção",
-    description: "Películas de segurança espessas que evitam o estilhaçamento dos vidros em tentativas de roubo ou acidentes. Nossos kits laterais já incluem nano cerâmica no para-brisa e traseiro.",
+    title: "Películas Antivandalismo (Segurança)",
+    subtitle: "Proteção Contra Roubos e Impactos Extremos",
+    description: "Espessas películas de segurança que transformam os vidros do carro em um escudo contra tentativas de quebra em semáforos, furtos e acidentes. Desmontagem e montagem técnica de portas para aplicação completa.",
     items: [
       {
         name: "Película Antivandalismo PS4",
+        badge: "Proteção Essencial",
         price: null,
-        description: "Espessura de 100 micras com suporte de impacto de até 45kg por cm². Polarizada, com bloqueio de 99% UV e 96% IR. Escuro por fora e claro por dentro. Não causa interferência em sinais de GPS, tags ou celulares. Retiramos os vidros para instalação perfeita. Garantia de 5 anos. Instalação em 1 dia."
+        description: "Espessura de 100 micras com suporte de impacto de até 45kg por cm². Bloqueia 99% dos raios UV e 96% do calor IR. Mantém a visibilidade e não causa interferência em GPS ou Tags. Garantia de 5 anos."
       },
       {
         name: "Película Antivandalismo PS8",
+        badge: "Segurança Reforçada",
         price: null,
-        description: "Espessura de 200 micras com suporte de impacto de até 65kg por cm². Polarizada, com bloqueio de 99% UV e 96% IR. Escuro por fora e claro por dentro. Não causa interferência em sinais de GPS, tags ou celulares. Retiramos os vidros para instalação perfeita. Garantia de 5 anos. Instalação em 1 dia."
+        description: "Espessura de 200 micras com suporte de impacto de até 65kg por cm². Resistência reforçada para blindagem dos vidros laterais contra pedradas e marteladas. Garantia de 5 anos."
       },
       {
         name: "Película Antivandalismo PS12",
+        badge: "Proteção de Alto Nível",
         price: null,
-        description: "Espessura de 300 micras com suporte de impacto de até 123kg por cm². Polarizada, com bloqueio de 99% UV e 96% IR. Escuro por fora e claro por dentro. Não causa interferência em sinais de GPS, tags ou celulares. Retiramos os vidros para instalação perfeita. Garantia de 5 anos. Instalação em 1 dia."
+        description: "Espessura de 300 micras com suporte de impacto de até 123kg por cm². Camada dupla de alta densidade para máxima resistência em tentativas de assalto em vias urbanas. Garantia de 5 anos."
       },
       {
         name: "Película Antivandalismo PS16",
+        badge: "Segurança Máxima",
         price: null,
-        description: "Espessura máxima de 400 micras com suporte de impacto de até 168kg por cm². Polarizada, com bloqueio de 99% UV e 96% IR. Escuro por fora e claro por dentro. Não causa interferência em sinais de GPS, tags ou celulares. Retiramos os vidros para instalação perfeita. Garantia de 5 anos. Instalação em 1 dia."
-      }
-    ]
-  },
-  {
-    id: "ppf",
-    title: "PPF (Paint Protection Film)",
-    subtitle: "Proteção de Pintura Auto-Regenerativa",
-    description: "Pintura protegida contra riscos, pedras de estrada, detritos e arranhões cotidianos com a película transparente termoplástica auto-regenerativa de poliuretano (PPF).",
-    items: [
-      {
-        name: "PPF Frontal",
-        price: null,
-        description: "Proteção completa para a frente do veículo, abrangendo para-choque dianteiro, paralamas, capô e espelhos retrovisores."
-      },
-      {
-        name: "PPF Parachoques (Dianteiro e Traseiro)",
-        price: null,
-        description: "Aplicação focada nas áreas mais expostas a impactos cotidianos: para-choque dianteiro e para-choque traseiro."
-      },
-      {
-        name: "PPF Full (Veículo Completo)",
-        price: null,
-        description: "Proteção extrema para 100% da lataria pintada do carro, ideal para veículos esportivos e de luxo."
-      },
-      {
-        name: "PPF Partes",
-        price: null,
-        description: "Aplicação cirúrgica e personalizada em áreas críticas como soleiras de portas, quinas de portas, conchas de maçanetas e faróis."
-      },
-      {
-        name: "PPF Motocicletas Full",
-        price: null,
-        description: "Película de proteção completa aplicada em toda a carenagem e pintura de motocicletas."
-      },
-      {
-        name: "PPF Tanque de Motocicleta",
-        price: null,
-        description: "Proteção contra riscos provocados pelo atrito da jaqueta/calça no tanque de combustível da moto."
-      },
-      {
-        name: "PPF Frontal de Motocicleta",
-        price: null,
-        description: "Proteção para áreas críticas da moto: tanque, carenagens laterais e paralama dianteiro."
-      }
-    ]
-  },
-  {
-    id: "protecao-pintura",
-    title: "Proteção de Pintura",
-    subtitle: "Polimento e Vitrificação",
-    description: "Correção de imperfeições na pintura (riscos superficiais e hologramas) e aplicação de revestimentos de alta durabilidade para brilho profundo e super hidrorrepelência.",
-    items: [
-      {
-        name: "Revitalização de Pintura",
-        price: null,
-        description: "Lavagem detalhada (Silver), descontaminação de pintura e aplicação de selante japonês Soft99 Fusso Coat com proteção e brilho por até 1 ano."
-      },
-      {
-        name: "Polimento + Proteção 12 Meses",
-        price: null,
-        description: "Polimento técnico corretivo e de refino, lavagem detalhada (Silver), descontaminação completa da pintura e selamento com Fusso Coat com garantia de 1 ano de proteção."
-      },
-      {
-        name: "Vitrificação de Pintura (3 Anos)",
-        price: null,
-        description: "Polimento técnico corretivo premium, lavagem detalhada (Silver), descontaminação de pintura e aplicação do coating cerâmico Sonax CC One com duração de até 3 anos."
-      }
-    ]
-  },
-  {
-    id: "higienizacao",
-    title: "Higienização Interna",
-    subtitle: "Saúde e Renovação do Interior",
-    description: "Limpeza profunda e sanitização completa de estofados, forrações e painéis, removendo ácaros, bactérias e odores desagradáveis.",
-    items: [
-      {
-        name: "Higienização Profunda Completa",
-        price: null,
-        description: "Limpeza com antibactericida e sanitização de bancos, teto e carpetes. Limpeza e condicionamento de forros de porta, painel, console, volante e câmbio. Hidratação de couro (se aplicável). Incluso lavagem externa com cera protetora de 4 meses."
-      }
-    ]
-  },
-  {
-    id: "lavagem-detalhada",
-    title: "Lavagem Detalhada",
-    subtitle: "Cuidado Profissional nos Mínimos Detalhes",
-    description: "Processos de lavagem artesanal, descontaminação de sujeiras pesadas e aplicação de proteções com foco na conservação e estética do carro.",
-    items: [
-      {
-        name: "Detalhamento Silver",
-        price: null,
-        description: "Lavagem externa detalhada e limpeza interna profunda com antibactericida. Revitalização e hidratação de plásticos internos e externos. Proteção de pintura por até 4 meses com excelente hidrorrepelência."
-      },
-      {
-        name: "Detalhamento Gold",
-        price: null,
-        description: "Tudo o que está incluso no Silver, mais higienização do sistema de ar condicionado (oxicom), cristalização de para-brisas para melhor visibilidade em chuvas."
-      },
-      {
-        name: "Detalhamento Platinum",
-        price: null,
-        description: "O serviço de lavagem mais completo da casa: detalhamento Gold, somado à lavagem técnica minuciosa de motor por baixo/cima e lavagem completa do chassi do veículo."
+        description: "Espessura máxima de 400 micras com incrível suporte de impacto de até 168kg por cm². A mais robusta do mercado para proteção total da sua família. Garantia de 5 anos."
       }
     ]
   },
   {
     id: "acessorios",
-    title: "Acessórios Automotivos",
-    subtitle: "Personalização e Conectividade",
-    description: "Instalação especializada de acessórios premium para maior conforto, conectividade, segurança e personalização do seu veículo.",
+    title: "Acessórios Automotivos & Conectividade",
+    subtitle: "Tecnologia, Conforto e Personalização",
+    description: "Instalação especializada de acessórios premium para modernizar e proteger seu veículo, preservando os chicotes e a garantia de fábrica do carro.",
     items: [
       {
-        name: "Central Multimídia",
+        name: "Central Multimídia HD (CarPlay & Android Auto)",
+        badge: "Tecnologia",
         price: null,
-        description: "Sistemas completos de entretenimento com integração Apple CarPlay e Android Auto sem fio. Mantemos a originalidade do painel e comandos de volante do veículo."
+        description: "Multimídias completas com espelhamento sem fio, tela IPS de alta resolução, processador veloz e total integração com comandos de volante e câmeras originais."
       },
       {
-        name: "Iluminação de LED",
+        name: "Iluminação LED de Alta Potência",
+        badge: "Estética & Visibilidade",
         price: null,
-        description: "Substituição de lâmpadas originais por kits de LED premium de alta potência para farol alto, baixo, milha e iluminação interna. Maior visibilidade e estética moderna."
+        description: "Kits de lâmpadas LED premium para faróis alto, baixo, milha e iluminação interna. Foco preciso que não cega motoristas no sentido oposto e ilumina até 3x mais."
       },
       {
-        name: "Câmera de Ré",
+        name: "Câmeras de Ré HD & Sensores de Estacionamento",
+        badge: "Segurança ao Manobrar",
         price: null,
-        description: "Instalação de câmeras e sensores de ré integrados à multimídia ou retrovisor interno. Resolução HD e linhas dinâmicas de guia para manobras seguras."
+        description: "Câmeras com visão noturna, linhas dinâmicas de guia e sensores com avisos sonoros e visuais integrados para manobras sem preocupação."
       },
       {
-        name: "Engate Traseiro",
+        name: "Engate Traseiro Certificado pelo INMETRO",
+        badge: "Homologado",
         price: null,
-        description: "Instalação de engates homologados pelo INMETRO, fabricados em aço de alta resistência, respeitando a capacidade máxima de tração do veículo."
+        description: "Engates fabricados em aço de alta resistência com esfera cromada, tomada elétrica funcional e plaqueta com capacidade de tração conforme normas de trânsito."
       },
       {
-        name: "Acessórios Diversos",
+        name: "Acessórios e Personalização Exclusiva",
+        badge: "Personalização",
         price: null,
-        description: "Soleiras de portas iluminadas, frisos laterais personalizados, calhas de chuva e outros acessórios estéticos para a linha completa de marcas."
+        description: "Instalação de soleiras iluminadas, calhas de chuva, frisos laterais na cor do carro e módulos de subida de vidros com antiesmagamento."
+      }
+    ]
+  },
+  {
+    id: "ppf",
+    title: "PPF — Proteção de Pintura Auto-Regenerativa",
+    subtitle: "Blindagem Transparente Contra Riscos e Pedras",
+    description: "Película transparente de poliuretano (TPU) que protege a pintura original do carro contra riscos, pedras da estrada, excrementos de pássaros e arranhões com propriedade auto-regenerativa ao calor.",
+    items: [
+      {
+        name: "PPF Frontal (Kit Proteção Dianteira)",
+        badge: "Mais Procurado",
+        price: null,
+        description: "Proteção focada no para-choque dianteiro, capô, paralamas e retrovisores — as áreas mais atingidas por pedras e detritos em estradas."
+      },
+      {
+        name: "PPF Full — Proteção Completa do Veículo",
+        badge: "Proteção Total",
+        price: null,
+        description: "Aplicação em 100% da lataria pintada do veículo. Ideal para carros esportivos, de luxo ou veículos zero km mantendo a pintura nova para sempre."
+      },
+      {
+        name: "PPF Partes Específicas & Conchas de Maçaneta",
+        badge: "Localizado",
+        price: null,
+        description: "Aplicação em pontos críticos de desgaste: quinas de portas, soleiras, conchas das maçanetas e faróis."
+      },
+      {
+        name: "PPF para Motocicletas (Tanque e Carenagens)",
+        badge: "Motos",
+        price: null,
+        description: "Proteção completa para o tanque e carenagens de motos contra riscos do zíper da jaqueta e pedriscos."
+      }
+    ]
+  },
+  {
+    id: "protecao-pintura",
+    title: "Polimento Técnico & Vitrificação Cerâmica",
+    subtitle: "Revitalização e Brilho Espelhado",
+    description: "Correção técnica de pintura para remoção de riscos superficiais, oxidações e hologramas, finalizada com vitrificador de nano tecnologia para hidrorrepelência extrema.",
+    items: [
+      {
+        name: "Vitrificação de Pintura Cerâmica (Garantia de 3 Anos)",
+        badge: "Brilho Extremo",
+        price: null,
+        description: "Polimento técnico corretivo de 3 etapas com aplicação de revestimento cerâmico alemão de altíssima durabilidade. Proteção UV, efeito espelhado e facilidade na lavagem."
+      },
+      {
+        name: "Polimento Técnico + Proteção por 12 Meses",
+        badge: "Revitalização",
+        price: null,
+        description: "Eliminação de riscos superficiais e resgate da cor original, com selamento protetor japonês Soft99 Fusso Coat."
       }
     ]
   }
@@ -213,9 +177,9 @@ window.showcasePhotos = [
 ];
 
 window.companyData = {
-  name: "Garagem JVC Estética Automotiva",
-  slogan: "Cuidando do seu carro, valorizando suas conquistas.",
-  description: "Somos especializados em estética automotiva completa, oferecendo serviços profissionais de instalação de películas automotivas (insulfilm), películas de proteção (PPF), películas antivandalismo (PS4, PS8 e PS12), envelopamento automotivo, polimento técnico, vitrificação de pintura, higienização interna e lavagens detalhadas. Trabalhamos com materiais de alta qualidade e técnicas avançadas para garantir proteção, durabilidade e acabamento premium para o seu veículo. Atendemos clientes que buscam conforto térmico, segurança, valorização estética e conservação do carro. Agende seu horário e traga mais proteção e brilho para o seu veículo.",
+  name: "Garagem JVC Películas & Acessórios Automotivos",
+  slogan: "Proteção solar, segurança e tecnologia para o seu veículo.",
+  description: "Somos uma empresa especializada em instalação profissional de Películas Automotivas Solares (Nano Cerâmica e Carbono com Corte Computadorizado), Películas Antivandalismo de Alta Resistência (PS4, PS8, PS12, PS16), PPF (Proteção de Pintura) e Acessórios Automotivos (Centrais Multimídia CarPlay/Android Auto, Lâmpadas LED, Câmeras de Ré e Engates Certificados). Garantia de até 7 anos e atendimento personalizado em São Paulo.",
   whatsapp: "11912722686",
   address: {
     line1: "Av. Nossa Senhora Do Sabará, 2863",
@@ -225,3 +189,4 @@ window.companyData = {
     postalCode: "04686-002"
   }
 };
+
