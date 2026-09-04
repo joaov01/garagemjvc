@@ -104,56 +104,13 @@ function initGallery() {
   const lightboxNext = document.getElementById('lightbox-next');
   const lightboxCaption = document.getElementById('lightbox-caption');
 
-  if (!grid || !btnLoadMore || !lightbox) return;
+  if (!grid || !lightbox) return;
 
   const photos = getShowcasePhotos();
 
-  // Render initial photos
-  renderPhotos();
-
-  // Load More click event
-  btnLoadMore.addEventListener('click', () => {
-    visiblePhotosCount += 6;
-    renderPhotos();
-  });
-
-  // Photo click event (open lightbox)
-  grid.addEventListener('click', (e) => {
-    const item = e.target.closest('.gallery-item');
-    if (!item) return;
-
-    currentLightboxIndex = parseInt(item.getAttribute('data-index'));
-    openLightbox();
-  });
-
-  // Lightbox close click
-  lightboxClose.addEventListener('click', closeLightbox);
-  lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox || e.target.classList.contains('lightbox-content')) {
-      if (e.target !== lightboxPrev && e.target !== lightboxNext) {
-        closeLightbox();
-      }
-    }
-  });
-
-  // Lightbox navigations
-  lightboxPrev.addEventListener('click', showPrevPhoto);
-  lightboxNext.addEventListener('click', showNextPhoto);
-
-  // Keyboard navigation
-  document.addEventListener('keydown', (e) => {
-    if (!lightbox.classList.contains('active')) return;
-
-    if (e.key === 'Escape') closeLightbox();
-    if (e.key === 'ArrowLeft') showPrevPhoto();
-    if (e.key === 'ArrowRight') showNextPhoto();
-  });
-
-  function renderPhotos() {
-    grid.innerHTML = '';
-    const slice = photos.slice(0, visiblePhotosCount);
-    
-    grid.innerHTML = slice.map((photo, index) => `
+  // If grid is empty in DOM, render dynamically
+  if (grid.children.length === 0 && photos.length > 0) {
+    grid.innerHTML = photos.map((photo, index) => `
       <div class="gallery-item glass-card animate-fade-in" data-index="${index}">
         <img src="${photo}" alt="Nosso Espaço Garagem JVC ${index + 1}" loading="lazy" class="gallery-img">
         <div class="gallery-overlay">
@@ -166,13 +123,43 @@ function initGallery() {
         </div>
       </div>
     `).join('');
-
-    if (visiblePhotosCount >= photos.length) {
-      btnLoadMore.style.display = 'none';
-    } else {
-      btnLoadMore.style.display = 'inline-block';
-    }
   }
+
+  if (btnLoadMore) {
+    btnLoadMore.style.display = 'none';
+  }
+
+  // Photo click event (open lightbox)
+  grid.addEventListener('click', (e) => {
+    const item = e.target.closest('.gallery-item');
+    if (!item) return;
+
+    currentLightboxIndex = parseInt(item.getAttribute('data-index')) || 0;
+    openLightbox();
+  });
+
+  // Lightbox close click
+  if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox || e.target.classList.contains('lightbox-content')) {
+      if (e.target !== lightboxPrev && e.target !== lightboxNext) {
+        closeLightbox();
+      }
+    }
+  });
+
+  // Lightbox navigations
+  if (lightboxPrev) lightboxPrev.addEventListener('click', showPrevPhoto);
+  if (lightboxNext) lightboxNext.addEventListener('click', showNextPhoto);
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('active')) return;
+
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') showPrevPhoto();
+    if (e.key === 'ArrowRight') showNextPhoto();
+  });
 
   function openLightbox() {
     lightbox.classList.add('active');
@@ -186,19 +173,22 @@ function initGallery() {
   }
 
   function showPrevPhoto() {
-    currentLightboxIndex = (currentLightboxIndex - 1 + visiblePhotosCount) % visiblePhotosCount;
+    const total = photos.length || 11;
+    currentLightboxIndex = (currentLightboxIndex - 1 + total) % total;
     updateLightboxImage();
   }
 
   function showNextPhoto() {
-    currentLightboxIndex = (currentLightboxIndex + 1) % visiblePhotosCount;
+    const total = photos.length || 11;
+    currentLightboxIndex = (currentLightboxIndex + 1) % total;
     updateLightboxImage();
   }
 
   function updateLightboxImage() {
-    const photoUrl = photos[currentLightboxIndex];
-    lightboxImg.src = photoUrl;
-    lightboxCaption.textContent = `Nosso Espaço Garagem JVC — Foto ${currentLightboxIndex + 1} de ${photos.length}`;
+    const total = photos.length || 11;
+    const photoUrl = photos[currentLightboxIndex] || `assets/espaco_${currentLightboxIndex + 1}.jpg`;
+    if (lightboxImg) lightboxImg.src = photoUrl;
+    if (lightboxCaption) lightboxCaption.textContent = `Nosso Espaço Garagem JVC — Foto ${currentLightboxIndex + 1} de ${total}`;
   }
 }
 
