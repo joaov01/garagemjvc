@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero Section */
 .hero {
   position: relative;
-  padding: 120px 0 100px;
+  padding: 40px 0 80px;
   background: radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.06) 0%, rgba(10, 14, 23, 0) 50%);
   overflow: hidden;
   border-bottom: 1px solid var(--border-color);
@@ -983,6 +983,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding: 30px 0 50px;
+  }
+
   .section-padding {
     padding: 70px 0;
   }
