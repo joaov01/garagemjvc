@@ -13,6 +13,7 @@ export default defineConfig({
         artigo4: resolve(__dirname, 'artigos/o-que-e-ppf-diferenca-across-pro-max.html'),
         artigo5: resolve(__dirname, 'artigos/som-automotivo-sq-linha-nakamichi-garagem-jvc.html'),
         artigo6: resolve(__dirname, 'artigos/multimidia-carplay-android-auto-camera-de-re.html'),
+        fundador: resolve(__dirname, 'artigos/joao-vitor-carmo.html'),
       },
     },
   },
